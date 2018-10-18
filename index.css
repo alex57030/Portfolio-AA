@@ -1,0 +1,80 @@
+#Masthead {
+position: fixed;
+width: 100%;
+margin: 0 0 30px;
+overflow: auto;
+color:yellow;
+background:purple;
+border-bottom: 2px solid red;
+}.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+nav{
+    float: right;
+    margin: 25px;
+
+}
+nav a{
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: gold;
+    text-decoration: none;
+    border-left: 1px solid gold;
+}
+
+nav a:first-child{
+    border-left: 0 none;
+}
+
+.sidebar{
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid wheat;
+
+}
+h3, .sidebar h2{
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid white
+}
+.social{
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+    
+}
+#main-container{
+    padding-top: 130px
+}
+
+.main-section{
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+
+}
+
+.auth-image{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+
+}
