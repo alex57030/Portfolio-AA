@@ -1,3 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+/* general */
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+/* header */
 #Masthead {
     position: fixed;
     width: 100%;
@@ -6,11 +19,6 @@
     color:yellow;
     background:purple;
     border-bottom: 2px solid red;
-    }.container {
-        width: 100%;
-        max-width: 960px;
-        margin: 0 auto;
-        clear: both;
     }
     
     nav{
@@ -31,7 +39,8 @@
     nav a:first-child{
         border-left: 0 none;
     }
-    
+    /* sidebar */
+
     .sidebar{
         float: right;
         width: 100%;
@@ -58,7 +67,8 @@
     #main-container{
         padding-top: 130px
     }
-    
+    /* main */
+
     .main-section{
         float: left;
         width: 100%;
@@ -70,12 +80,7 @@
     
     }
     
-    .auth-image{
-        float: left;
-        width: 200px;
-        height: auto;
-        margin-top: 10px;
-        margin-right: 25px;
+    
     
     }
     .work{
@@ -84,9 +89,53 @@
         width: 274px;
         margin: 20px 0 25px;
         overflow: auto;
-        
     }
-    footer{
+       
+       
+        /* portfolio page */
+       
+       
+        .work{
+            position: relative;
+            float: left;
+            width: 274px;
+            margin: 20px 0 25px;
+            overflow: auto;
+           
+           .work:nth-child(even){
+               margin-right: 40px;
+
+           }
+           .work img{
+               width: 100%;
+               border:0 none;
+               opacity: 0.8;
+           }
+           .work h3{
+               position: absolute;
+               bottom: 20px;
+               width: 100%;
+               padding: 15px;
+               margin-bottom: 0;
+               font-weight: 200;
+               line-height: 20px;
+               color: #ddd;
+               text-align: center;
+               background: palevioletred;
+               border-bottom: 0;
+
+           }
+    
+            .auth-image{
+                float: left;
+                width: 200px;
+                height: auto;
+                margin-top: 10px;
+                margin-right: 25px;
+            }
+/* footer */
+
+    footer {
         padding: 30px;
         clear: both;
         font-size: 12px;
