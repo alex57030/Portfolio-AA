@@ -1,3 +1,10 @@
+
+body { 
+font-family:"Helvetica neue" , Arial, Helvetica, sans-serif ;
+font-size: 18px;
+line-height: 34px;
+color: 'black';
+}
 *{
     box-sizing: border-box;
 }
@@ -9,6 +16,33 @@
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin-bottom: 20px;
+}
+p:last-child{
+    margin-bottom: 0;
+}
+h1,
+h2,
+h3,{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 700;
+color: gold;
+}
+h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid gold;
 }
 /* header */
 #Masthead {
@@ -133,6 +167,9 @@
                 margin-top: 10px;
                 margin-right: 25px;
             }
+/* contact page */
+            
+
 /* footer */
 
     footer {
